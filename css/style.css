@@ -1,0 +1,160 @@
+.orange-box {
+  width: 1312px;
+  height: 304px;
+  background-color: #f57f31;
+  border-radius: 24px;
+  position: relative;
+  top: 216px;
+  margin: 0 auto; }
+
+.card {
+  width: 416px;
+  height: 264px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 24px;
+  margin: 32px 8px 0;
+  padding: 24px;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15); }
+  .card .card__image {
+    background-position: center;
+    background-size: cover;
+    width: 72px;
+    height: 72px;
+    border: 3px solid #fff;
+    border-radius: 50%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.post__slider {
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative; }
+  .post__slider__title {
+    position: absolute;
+    top: 80px;
+    left: 176px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #333; }
+  .post__slider .next {
+    position: absolute;
+    top: 68%;
+    right: 40%;
+    font-size: 24px; }
+  .post__slider .prev {
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    font-size: 24px; }
+  .post__slider .card__wrapper {
+    height: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative; }
+    .post__slider .card__wrapper .card {
+      position: relative; }
+      .post__slider .card__wrapper .card__image {
+        background-image: url(../images/natalia.png);
+        position: absolute;
+        top: -32px; }
+      .post__slider .card__wrapper .card__title {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-top: 32px; }
+        .post__slider .card__wrapper .card__title__name {
+          color: #f57f31;
+          font-weight: 700;
+          font-size: 18px; }
+      .post__slider .card__wrapper .card__job {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        margin-top: 8px; }
+      .post__slider .card__wrapper .card__text {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        width: 85%;
+        margin-top: 16px; }
+
+@media only screen and (max-width: 480px) {
+  .orange-box {
+    top: 272px; }
+
+  .post__slider {
+    width: 376px; }
+
+  .post__slider .post__slider__title {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    color: #333; }
+
+  .post__slider .next {
+    display: none; }
+
+  .post__slider .prev {
+    display: none; }
+
+  .post__slider .card__wrapper {
+    height: 320px;
+    padding-bottom: 0; }
+
+  .post__slider .card__wrapper .card {
+    height: 100px; }
+
+  .card__wrapper .card__title {
+    margin-top: 16px;
+    flex-direction: column; }
+
+  .post__slider .card__wrapper .card {
+    width: 375px;
+    height: 275px;
+    flex-direction: column; }
+
+  .card .card__text {
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    margin-top: 10px; } }
+@media only screen and (max-width: 640px) {
+  .post__slider .next {
+    display: none; }
+
+  .post__slider .prev {
+    display: none; }
+
+  .post__slider .post__slider__title {
+    text-align: center;
+    font-size: 1.6rem;
+    left: 25%;
+    margin: 0 auto; } }
+@media only screen and (max-width: 1024px) {
+  .post__slider .card__wrapper {
+    height: 320px; }
+
+  .post__slider .next {
+    position: absolute;
+    top: 68%;
+    right: 40%;
+    font-size: 24px; }
+
+  .post__slider .prev {
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    font-size: 24px; } }
+@media only screen and (max-width: 1366px) {
+  .orange-box {
+    width: 95%; } }
+
+/*# sourceMappingURL=style.css.map */
